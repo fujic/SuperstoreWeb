@@ -1,0 +1,12 @@
+{
+  "name": "superstore-analytics",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@tableau/embedding-api": "^3.15.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^11.0.0"
+  }
+}

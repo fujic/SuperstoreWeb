@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Superstore | Executive Insights</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">SUPERSTORE<span>HQ</span></div>
+        <nav>
+            <a href="#" id="tab-sales" class="nav-link active">Overview</a>
+            <a href="#" id="tab-inventory" class="nav-link">Product</a>
+            <a href="#" id="tab-growth" class="nav-link">Customers</a>
+        </nav>
+    </div>
+
+    <main class="content">
+        <header>
+            <h1>Global Performance Dashboard</h1>
+            <p>Real-time data for the 2026 Fiscal Year</p>
+        </header>
+
+        <section class="viz-container">
+            <tableau-viz id="tableauViz" 
+                src="https://prod-apsoutheast-c.online.tableau.com/t/fujicastid/views/Superstore/Overview"
+                toolbar="hidden"
+                hide-tabs>
+            </tableau-viz>
+        </section>
+    </main>
+    <script type="module" src="js/embed.js"></script>
+</body>
+</html>
