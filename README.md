@@ -1,3 +1,5 @@
+Please 
+
 SuperstoreWeb - Tableau Embedded Analytics
 This application demonstrates a secure integration of the Tableau Sample Superstore dashboard using the Tableau Embedding API v3 and Connected Apps (JWT) authentication.
 
@@ -27,3 +29,9 @@ Create a file named .env and add your credentials:
 4. Run the App
     node app.js
 The server will start locally, usually at http://localhost:3000.
+
+
+This project is an independent, open-source community contribution and is NOT affiliated with, authorized, maintained, sponsored, or endorsed by Salesforce, Inc. or Tableau Software, LLC.
+Trademarks: "Tableau" and "Salesforce" are registered trademarks of their respective owners.
+Purpose: This repository is intended for educational and demonstration purposes only, showcasing how to use the Tableau Embedding API.
+No Warranty: The software is provided "as is", without warranty of any kind, express or implied. Use of this code is at your own risk.
