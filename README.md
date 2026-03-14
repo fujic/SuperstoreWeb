@@ -1,5 +1,3 @@
-Please 
-
 SuperstoreWeb - Tableau Embedded Analytics
 This application demonstrates a secure integration of the Tableau Sample Superstore dashboard using the Tableau Embedding API v3 and Connected Apps (JWT) authentication.
 
